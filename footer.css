@@ -1,0 +1,15 @@
+footer {
+    margin: 5rem 10rem 2rem;
+}
+
+#rights-reserved {
+    float: right;
+}
+
+.social-media-images {
+    width: 200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

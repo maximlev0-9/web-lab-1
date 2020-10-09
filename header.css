@@ -1,0 +1,77 @@
+@import "explore-and-travel-section.css";
+header {
+    margin-left: 8rem;
+    margin-right: 5rem;
+}
+
+.flex-parent {
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /*align-content: end;*/
+    /*align-items: end;*/
+}
+
+nav {
+    flex: 5;
+    width: 100%;
+    margin-right: 5rem;
+}
+
+.navigation-header {
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-right: 5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.element-of-nav-menu {
+    font-family: Inter, serif;
+    color: silver;
+    margin-top: 1rem;
+}
+
+.link_for_nav {
+    /*margin-top: 8rem;*/
+    text-decoration: none;
+    color: silver;
+}
+
+.first-link_for_nav {
+    margin-top: 2rem;
+    text-decoration: none;
+    color: black;
+}
+
+.button-in-nav-menu {
+    margin-top: 0;
+}
+
+.login {
+    margin-top: 10px;
+    width: 6rem;
+    background-color: #ffffff;
+    color: #ff9c00;
+    padding: 6px 20px;
+    border-radius: 6px;
+    border: #ff9c00 1px solid;
+}
+
+.orange_button {
+    width: 6rem;
+    margin-top: 10px;
+    background-color: #ff9c00;
+    color: white;
+    padding: 6px 20px;
+    border-radius: 6px;
+    border: #ff9c00 1px solid;
+}

@@ -1,0 +1,11 @@
+.title_of_section {
+    font-family: Playfair Display, serif;
+    font-size: 2rem;
+}
+
+p {
+    font-family: Inter, serif;
+    color: silver;
+    font-size: 0.8rem;
+    display: inline-block;
+}

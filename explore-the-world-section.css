@@ -1,0 +1,17 @@
+.explore-the-world {
+    display: flex;
+    margin-top: 15rem;
+    padding-left: 5%;
+    width: 95%;
+}
+
+.part_of_explore-the-world {
+    width: 70%;
+    margin-left: 2rem;
+    margin-top: 3rem;
+    margin-right: 15rem;
+}
+
+.paragraph {
+    line-height: 20px;
+}

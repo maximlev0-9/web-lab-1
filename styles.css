@@ -1,0 +1,58 @@
+@import "header.css";
+@import "footer.css";
+@import "global.css";
+@import "explore-the-world-section.css";
+@import "featured-destinations.css";
+.logo {
+    margin-top: 1rem;
+    width: 80%;
+    flex: 4;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+
+.image {
+    width: 100%;
+}
+
+#plus {
+    position: relative;
+    top: 3.5rem;
+}
+
+#circle_near_section1 {
+    position: relative;
+    right: 80px;
+}
+
+.orange_button2 {
+    min-width: 7.5rem;
+    width: max-content;
+    margin-top: 20px;
+    background-color: #ff9c00;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 6px;
+    border: #ff9c00 1px solid;
+}
+
+#one_more_circle {
+    /*float: right;*/
+    /*margin-right: 30rem;*/
+    margin-left: 30rem;
+    width: 20px;
+}
+
+#one_more_plus {
+    position: relative;
+    bottom: 15rem;
+}
+
+.third_circle {
+    position: relative;
+    float: right;
+    right: 2rem;
+    /*left: 20rem;*/
+    top: 1rem;
+}
