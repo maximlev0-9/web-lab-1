@@ -1,5 +1,7 @@
 .explore-the-world {
+    background: url("images/image2.svg") left 20% no-repeat;
     display: flex;
+    max-height: 600px;
     align-items: center;
     margin-top: 15rem;
     padding-left: 5%;
@@ -7,15 +9,17 @@
 }
 
 .part_of_explore-the-world {
-    width: 70%;
+    width: 50%;
     margin-left: 2rem;
     margin-top: 3rem;
     margin-right: 10%;
 }
 
 .plus-near-explore-the-world {
+    width: 30px;
     height: 100%;
-    margin-bottom: 35%;
+    /* margin-bottom: 35%; */
+    margin: 0 0 50% 60%;
 }
 
 .paragraph {
@@ -27,4 +31,17 @@
     height: 20px;
     width: 100%;
     background: url("images/circle_grad_2.svg") right 30% top 0 no-repeat;
+}
+
+@media screen and (max-width: 800px) {
+    .plus-near-explore-the-world {
+        width: auto;
+        margin: 0;
+    }
+    .explore-the-world {
+        justify-content: space-around;
+    }
+    .paragraph {
+        color: black;
+    }
 }

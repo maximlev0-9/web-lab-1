@@ -86,3 +86,9 @@
         margin-bottom: 2rem;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .text-near-image.invisible {
+        display: none;
+    }
+}

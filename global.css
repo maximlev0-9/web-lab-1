@@ -1,3 +1,9 @@
+body.open {
+    margin: 8px;
+    height: 100%;
+    overflow: hidden
+}
+
 p {
     font-family: Inter, sans-serif;
     color: silver;
