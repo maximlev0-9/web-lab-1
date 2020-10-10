@@ -1,7 +1,21 @@
 @import "explore-and-travel-section.css";
 header {
     margin-left: 8rem;
+    margin-right: 10rem;
+}
+
+nav {
+    flex: 5;
+    width: 90%;
     margin-right: 5rem;
+}
+
+.header__menu {
+    margin-top: 0.8rem;
+    display: flex;
+    width: 32px;
+    align-items: center;
+    display: none;
 }
 
 .flex-parent {
@@ -9,46 +23,31 @@ header {
     width: 100%;
     display: flex;
     flex-direction: row;
-    /*align-content: end;*/
-    /*align-items: end;*/
 }
 
-nav {
-    flex: 5;
-    width: 100%;
-    margin-right: 5rem;
-}
-
-.navigation-header {
+.header__nav-ul {
+    padding-inline-start: 0;
+    list-style-type: none;
     justify-content: space-between;
     margin-top: 1rem;
     margin-right: 5rem;
     width: 100%;
     display: flex;
+    align-items: center;
     flex-direction: row;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
 
 .element-of-nav-menu {
     font-family: Inter, serif;
-    color: silver;
-    margin-top: 1rem;
+    margin: 0.1rem;
 }
 
 .link_for_nav {
-    /*margin-top: 8rem;*/
     text-decoration: none;
     color: silver;
 }
 
-.first-link_for_nav {
-    margin-top: 2rem;
-    text-decoration: none;
+.element-of-nav-menu:first-child .link_for_nav {
     color: black;
 }
 
@@ -57,21 +56,81 @@ ul {
 }
 
 .login {
-    margin-top: 10px;
-    width: 6rem;
+    margin-right: -1rem;
+    width: 8rem;
     background-color: #ffffff;
     color: #ff9c00;
-    padding: 6px 20px;
-    border-radius: 6px;
+    padding: 0.7rem 20px;
+    border-radius: 0.5rem;
     border: #ff9c00 1px solid;
 }
 
 .orange_button {
-    width: 6rem;
-    margin-top: 10px;
+    margin-left: 0.2rem;
+    width: 8rem;
     background-color: #ff9c00;
     color: white;
-    padding: 6px 20px;
-    border-radius: 6px;
+    padding: 0.7rem 20px;
+    border-radius: 0.5rem;
     border: #ff9c00 1px solid;
+}
+
+@media screen and (max-width: 800px) {
+    header {
+        width: 100%;
+        margin: 0 auto;
+    }
+    nav {
+        margin-right: 0;
+    }
+    .flex-parent {
+        margin-right: 0;
+    }
+    .login {
+        margin-right: 0.1rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    nav {
+        background-color: burlywood;
+        width: 100%;
+        position: fixed;
+        top: 5rem;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    .header__nav-ul {
+        flex-direction: column;
+    }
+    .header__menu {
+        display: block;
+    }
+    .element-of-nav-menu {
+        margin-bottom: 5%;
+    }
+    .button-in-nav-menu {
+        margin-bottom: 5%;
+    }
+    .link_for_nav {
+        color: #000;
+    }
+    .login {
+        margin-right: 0%;
+    }
+    /* .header__nav {
+        background: #e7ecff;
+        position: fixed;
+        top: 72px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin-top: 0;
+        clip-path: circle(0 at top left);
+        transition: clip-path 0.9s ease-in;
+    }
+    .header__nav.open {
+        clip-path: circle(1000px at top);
+    } */
 }

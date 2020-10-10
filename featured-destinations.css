@@ -1,10 +1,9 @@
-.yes_its_circle {
-    position: relative;
-    float: right;
-    /*margin-right: 5rem;*/
-    right: 10rem;
-    /*left: 45rem;*/
-    top: 1rem;
+.featured-destinations__circle {
+    width: 100%;
+    height: 20px;
+    background-image: url("images/circle_grad_2.svg");
+    background-repeat: no-repeat;
+    background-position: right 15% top 0;
 }
 
 .featured-destinations {
@@ -12,7 +11,7 @@
     /*margin-top: 10rem;*/
 }
 
-.title-of-featured-destinations {
+.featured-destinations__title_and_link {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -21,9 +20,10 @@
 .orange-text {
     font-size: 1.1rem;
     color: #ff9c00;
+    text-decoration: none;
 }
 
-.images-from-featured-destinations {
+.featured-destinations__images {
     width: 100%;
     display: flex;
     margin-top: 2rem;
@@ -36,7 +36,6 @@
     align-items: center;
     background-color: white;
     position: relative;
-    /*top: 190px;*/
     margin-top: -4rem;
     left: -5px;
     width: 100px;
@@ -44,12 +43,13 @@
     border-radius: 7px;
 }
 
-.div-above-image-under-featured-destinations {
+.featured-destinations__text_and_image {
     width: 22%;
     height: 250px;
+    border-radius: 6px;
 }
 
-.image-under-featured-destinations {
+.featured-destinations__image {
     width: 100%;
     height: 250px;
 }
@@ -59,8 +59,30 @@
     bottom: 2rem;
 }
 
-.fifth-circle {
-    /*float: right;*/
-    margin-top: 3rem;
-    margin-left: 25rem;
+.featured-destinations__circle_at_the_end {
+    width: 100%;
+    height: 80px;
+    background-image: url("images/circle_grad_2.svg");
+    background-position: left 45% top 3rem;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 800px) {
+    .featured-destinations {
+        margin: 5rem 10% 0;
+    }
+    .featured-destinations__images {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2rem;
+        justify-content: space-between;
+    }
+    .featured-destinations__text_and_image {
+        width: 80%;
+        height: fit-content;
+        border-radius: 6px;
+        margin-bottom: 2rem;
+    }
 }

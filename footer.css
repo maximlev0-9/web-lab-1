@@ -2,8 +2,14 @@ footer {
     margin: 5rem 10rem 2rem;
 }
 
-#rights-reserved {
+
+/* #rights-reserved {
     float: right;
+} */
+
+.footer__title {
+    display: flex;
+    justify-content: space-between;
 }
 
 .social-media-images {
@@ -12,4 +18,10 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 800px) {
+    footer {
+        margin: 3rem 10% 1rem;
+    }
 }

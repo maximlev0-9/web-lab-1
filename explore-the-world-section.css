@@ -1,5 +1,6 @@
 .explore-the-world {
     display: flex;
+    align-items: center;
     margin-top: 15rem;
     padding-left: 5%;
     width: 95%;
@@ -9,9 +10,21 @@
     width: 70%;
     margin-left: 2rem;
     margin-top: 3rem;
-    margin-right: 15rem;
+    margin-right: 10%;
+}
+
+.plus-near-explore-the-world {
+    height: 100%;
+    margin-bottom: 35%;
 }
 
 .paragraph {
-    line-height: 20px;
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+}
+
+.third_circle {
+    height: 20px;
+    width: 100%;
+    background: url("images/circle_grad_2.svg") right 30% top 0 no-repeat;
 }
