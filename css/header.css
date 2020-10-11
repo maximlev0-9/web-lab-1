@@ -103,7 +103,7 @@ nav {
         left: 0;
         right: 0;
         bottom: 0;
-        clip-path: inset(1000px 50px);
+        clip-path: inset(1000px 0px);
         transition: clip-path 0.9s ease-in;
     }
     nav.open {
@@ -130,18 +130,4 @@ nav {
     .login {
         margin-right: 0%;
     }
-    /* .header__nav {
-        background: #e7ecff;
-        position: fixed;
-        top: 72px;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        margin-top: 0;
-        clip-path: circle(0 at top left);
-        transition: clip-path 0.9s ease-in;
-    }
-    .header__nav.open {
-        clip-path: circle(1000px at top);
-    } */
 }

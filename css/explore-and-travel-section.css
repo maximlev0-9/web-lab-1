@@ -85,6 +85,10 @@
     .plus-near-title_explore-and-travel {
         display: none;
     }
+    .select {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
 }
 
 @media screen and (max-width: 500px) {

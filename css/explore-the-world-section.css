@@ -45,3 +45,15 @@
         color: black;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .plus-near-explore-the-world {
+        display: none;
+    }
+    .part_of_explore-the-world {
+        width: 100%;
+    }
+    .explore-the-world {
+        background-image: none;
+    }
+}
