@@ -1,5 +1,5 @@
 .explore-the-world {
-    background: url("images/image2.svg") left 20% no-repeat;
+    background: url("../images/image2.svg") left 20% no-repeat;
     display: flex;
     max-height: 600px;
     align-items: center;
@@ -30,7 +30,7 @@
 .third_circle {
     height: 20px;
     width: 100%;
-    background: url("images/circle_grad_2.svg") right 30% top 0 no-repeat;
+    background: url("../images/circle_grad_2.svg") right 30% top 0 no-repeat;
 }
 
 @media screen and (max-width: 800px) {

@@ -1,7 +1,7 @@
 .featured-destinations__circle {
     width: 100%;
     height: 20px;
-    background-image: url("images/circle_grad_2.svg");
+    background-image: url("../images/circle_grad_2.svg");
     background-repeat: no-repeat;
     background-position: right 15% top 0;
 }
@@ -62,7 +62,7 @@
 .featured-destinations__circle_at_the_end {
     width: 100%;
     height: 80px;
-    background-image: url("images/circle_grad_2.svg");
+    background-image: url("../images/circle_grad_2.svg");
     background-position: left 45% top 3rem;
     background-repeat: no-repeat;
 }
