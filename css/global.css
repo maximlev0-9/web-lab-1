@@ -39,4 +39,14 @@ p {
     padding: 10px 25px;
     border-radius: 6px;
     border: #ff9c00 1px solid;
+    transition: all 0.3s ease-in;
+}
+
+.orange_button2:hover {
+    background-color: white;
+    color: black;
+}
+
+.orange_button2:focus {
+    background-color: yellow;
 }
