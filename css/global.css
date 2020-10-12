@@ -50,3 +50,10 @@ p {
 .orange_button2:focus {
     background-color: yellow;
 }
+
+@media screen and (min-width: 1300px) {
+    body {
+        max-width: 1300px;
+        margin: auto;
+    }
+}
