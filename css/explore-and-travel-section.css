@@ -35,7 +35,41 @@
 
 .explore-and-travel__line {
     width: 32px;
+    animation-name: line_move;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
 }
+
+@keyframes line_move {
+    from {
+        height: 2px;
+        width: 1000px;
+    }
+    to {
+        margin-top: -1px;
+        width: 32px;
+        height: 2px;
+    }
+}
+
+
+/* .explore-and-travel__line {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+@keyframes example {
+    from {
+        background-color: red;
+    }
+    to {
+        background-color: yellow;
+    }
+} */
 
 #circle_near_section1 {
     width: fit-content;
